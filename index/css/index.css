@@ -1,0 +1,256 @@
+.clr{
+	clear: both;
+}
+#container {
+	width: 1002px;
+	margin: 0 auto;
+}
+#header {
+	height: 128px;
+	background: url(../images/top_bg.jpg) no-repeat;
+	margin:0 0 5px 0;
+}
+#header img{
+	margin: -1px;
+}
+#header .english{
+	float: right;
+	margin: 5px 22px 0 0;
+	font-size: 11px;
+}
+#header .english a{
+	color: #898989;
+	text-decoration: none;
+}
+#header .english a:hover{
+	color:#ff9532;
+}
+#nav{
+	clear: both;
+}
+#nav ul{
+	float: left;
+	margin: 0 0 0 5px;
+}
+#nav li {
+	float: left;
+	width: 86px;
+	text-align: center;
+	font-size: 15px;
+}
+#nav li.nav_index{
+	width: 80px;
+	margin:0 0 0 -4px;
+}
+#nav li.nav_index1{
+	margin:0 0 0 15px;
+}
+#nav li.nav_index2{
+	margin:0 0 0 12px;
+}
+#nav li.nav_index3{
+	margin:0 0 0 5px;
+}
+#nav li.nav_index4{
+	margin:0 0 0 5px;
+}
+#nav li.nav_index5{
+	margin:0 0 0 5px;
+}
+#nav li.nav_index6{
+	margin:0 0 0 5px;
+}
+
+#nav li a{
+	display: block;
+	font-size: 15px;
+	text-decoration: none;
+	color: #333;
+	width: 90px;
+	height: 37px;
+	line-height: 37px;
+}
+#nav li a:hover{
+	color: #fff;
+	background:#ff9532 url(../images/nav_on.gif);
+}
+#lside {
+	float: left;
+	width: 694px;
+}
+#lside .subtitle{
+	width: 694px;
+	height: 36px;
+	background: url(../images/index_main_top_bg.gif);
+}
+#lside img{
+	float: left;
+	margin: 5px 10px 0 10px;
+}
+#lside h1{
+	float: left;
+	margin: 5px 0 0 0;
+	color: black;
+	font-size: 16px;
+}
+#lside .lside_more{
+	float: right;
+	font-size: 10px;
+	line-height: 36px;
+	color: #666;
+}
+#lside .lside_more a{
+	text-decoration: none;
+	margin: 0 15px 0 0;
+}
+#lside .lside_more a:hover{
+	color: #ff9532;
+}
+#lside .four_content{
+	width: 692px;
+	height: 464px;
+	border: 1px solid #ccc;
+}
+#lside .four{
+	width: 325px;
+	height: 210px;
+	float: left;
+	background: #eee;
+	margin: 10px 10px 5px 10px;
+}
+
+#lside .four h2{
+	color: #666;
+	font-size: 16px;
+	margin: 10px 0 5px 10px;
+}
+#lside .four img{
+	float: left;
+}
+#lside .four ul{
+	float: left;
+	margin: 5px 0 0 0;
+}
+#lside .four li{
+	height: 28px;
+	background: url(../images/service_intro_bg.gif) no-repeat 0 20%;
+	padding: 0 0 0 10px;
+	font-size: 12px;
+}
+
+#rside {
+	float: right;
+	width: 294px;
+}
+#rside .rtitle{
+	width: 294px;
+	height: 36px;
+	background: url(../images/sub_bar_title_bg.gif);
+}
+#rside .rtitle h2{
+	float: left;
+	margin: 8px 0 5px 40px;
+	font-size: 15px;
+	color: black
+}
+#rside .rtitle_more{
+	float: right;
+	font-size: 10px;
+	line-height: 36px;
+	color: #666;
+}
+#rside .rtitle_more a{
+	text-decoration: none;
+	margin: 0 15px 0 0;
+}
+#rside .rtitle_more a:hover{
+	color: #ff9532;
+}
+#rside .art{
+	height: 220px;
+	background: #eee;
+	margin-top: 1px;
+}
+#rside .art ul{
+	padding: 20px 0 0 0;
+}
+
+#rside .art ul li a{
+	display: block;
+	height: 29px;
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+	background: url(../images/article_head.gif) no-repeat ;
+	padding-left: 30px;
+	letter-spacing: 1px;
+}
+#rside .art ul li a:hover{
+	text-decoration: none;
+	background: url(../images/article_on_bg.gif) no-repeat;
+}
+#rside .contact_title{
+	width: 294px;
+	height: 36px;
+	background: url(../images/sub_bar_title_bg.gif) no-repeat;
+	margin: 15px 0 0 0 ;
+}	
+#rside .contact_title h2{
+	float: left;
+	margin: 8px 0 5px 40px;
+	font-size: 15px;
+	color: black
+}
+#rside .contact_metoh{
+	height: 193px;
+	background: #eee;
+	margin-top: 1px;
+	font-size: 12px;
+}
+#rside .contact_metoh ul{
+	padding: 20px;
+}
+#rside .contact_metoh ul li{
+	color: #666;
+	height: 20px;
+}
+#rside .email{
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin: -20px 0 0 20px;
+}
+#rside .email img{
+	float: left;
+}
+#rside .email span{
+	float: left;
+	padding: 0 0 0 10px;
+}
+#footer{
+	margin-top: 10px;
+}
+#footer ul{
+	background: #eee;
+	height: 40px;
+	line-height: 40px;
+	
+}
+#footer ul li{
+	float: left;
+	padding: 0 10px 0 10px;
+	font-size: 12px;
+}
+#footer ul li a{
+	color: #898989;
+}
+#footer ul li a:hover{
+	text-decoration: none;
+	color: #ff9532;
+}
+#footer address{
+	color: #898989;
+	margin: 5px 0 6px 0;
+	font-size: 12px;
+}
